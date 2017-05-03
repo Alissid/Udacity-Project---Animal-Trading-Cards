@@ -1,39 +1,41 @@
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 }
-#animal {
-border: 1px solid #ccc;
-border-radius: 10px;
-box-shadow: 10px 10px 10px #bfbfbf; 
-padding: 10px;
-width: 300px;
-background-color: green; 
+.animal {
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #bfbfbf;
+	padding: 10px;
+	width: 300px;
+	background-color: green;
 }
 .card-title {
-font-size: 200%;
-margin: 0px;
+	font-size: 200%;
+	margin: 0;
 }
-.lion-picture{
-padding-top: 20px;
-padding-bottom: 15px;
+.lion-picture {
+	width: 300px;
+	padding-top: 20px;
+	padding-bottom: 15px;
 }
 .lion-fact {
-font-style: italic;
-border: 1px solid #ccc;
-width: 300px;
+	font-style: italic;
+	border: 1px solid #ccc;
+	width: 300px;
 }
 .lion-description {
-padding-left: 10px;
+	padding-left: 10px;
 }
 .label {
-font-weight: bold;
-padding-left: 10px;
+	font-weight: bold;
+	padding-left: 10px;
 }
-ul.style {
-list-style-type: none;
-padding-left:0px;
+.style {
+	list-style-type: none;
+	padding-left:0px;
 }
 .lion-strength {
-padding-left: 10px;
-padding-bottom:10px;
+	padding-left: 10px;
+	padding-bottom:10px;
 }
+
